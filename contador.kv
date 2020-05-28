@@ -1,0 +1,10 @@
+<Acrescentar>:
+	orientation:'vertical'
+	Label:
+		id:label
+		text:'1'
+		font_size:37
+	Button:
+		text:'Contador'
+		font_size:37
+		on_release:label.text = str(int(label.text)+1)
